@@ -1,14 +1,18 @@
-document.addEventListener("DOMContentLoaded", function() {
-  // Get all elements with class starting with "frame-" and add hover effect
-  const frameElements = document.querySelectorAll("[class^='frame-']");
-  
-  frameElements.forEach(function(element) {
-    element.addEventListener("mouseover", function() {
-      this.style.transform = "scale(1.05)";
-    });
-    
-    element.addEventListener("mouseout", function() {
-      this.style.transform = "scale(1)";
-    });
+const productButtons = document.querySelectorAll('.frame-10, .frame-15, .frame-1a, .frame-30, .frame-3e, .frame-button, .frame-button-58, .frame-button-68');
+
+productButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const productName = button.parentElement.querySelector('span:first-child').textContent;
+    const message = `You selected: ${productName}`;
+    alert(message);
+  });
+});
+
+const serviceLinks = document.querySelectorAll('.services');
+
+serviceLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    const message = 'Redirecting to services page...';
+    alert(message);
   });
 });
