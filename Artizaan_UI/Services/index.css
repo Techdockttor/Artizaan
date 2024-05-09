@@ -1,0 +1,33 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+.frame-10:hover {
+  transform: scale(1.05);
+}
+.frame-15:hover {
+  transform: scale(1.05);
+}
+.frame-1a:hover {
+  transform: scale(1.05);
+}
+.frame-30:hover {
+  transform: scale(1.05);
+}
+.frame-3e:hover {
+  transform: scale(1.05);
+}
+.frame-button:hover {
+  transform: scale(1.05);
+}
+.frame-button-58:hover {
+  transform: scale(1.05);
+}
+.frame-button-68:hover {
+  transform: scale(1.05);
+}
+.frame-button-78:hover {
+  transform: scale(1.05);
+}
